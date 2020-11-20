@@ -1,0 +1,99 @@
+print('''
+*******************************************************************************
+          |                   |                  |                     |
+ _________|________________.=""_;=.______________|_____________________|_______
+|                   |  ,-"_,=""     `"=.|                  |
+|___________________|__"=._o`"-._        `"=.______________|___________________
+          |                `"=._o`"=._      _`"=._                     |
+ _________|_____________________:=._o "=._."_.-="'"=.__________________|_______
+|                   |    __.--" , ; `"=._o." ,-"""-._ ".   |
+|___________________|_._"  ,. .` ` `` ,  `"-._"-._   ". '__|___________________
+          |           |o`"=._` , "` `; .". ,  "-._"-._; ;              |
+ _________|___________| ;`-.o`"=._; ." ` '`."\` . "-._ /_______________|_______
+|                   | |o;    `"-.o`"=._``  '` " ,__.--o;   |
+|___________________|_| ;     (#) `-.o `"=.`_.--"_o.-; ;___|___________________
+____/______/______/___|o;._    "      `".o|o_.--"    ;o;____/______/______/____
+/______/______/______/_"=._o--._        ; | ;        ; ;/______/______/______/_
+____/______/______/______/__"=._o--._   ;o|o;     _._;o;____/______/______/____
+/______/______/______/______/____"=._o._; | ;_.--"o.--"_/______/______/______/_
+____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
+/______/______/______/______/______/______/______/______/______/______/_____ /
+*******************************************************************************
+''')
+print("Welcome to Treasure Island.")
+print("Your mission is to find the treasure.") 
+left_right = input('Stage 1\' : You have come across an island Do you wanna go "left" ,"forward","backward" or "right"? : \n').lower()
+if left_right == 'right':
+    print("Fall into a hole hahhahah Game over.....")
+elif left_right == 'forward':
+    print("Haha tree fall on you ...Game over!")
+elif left_right == 'backward':
+    print("You fall into jungle...Game over!!")
+elif left_right == 'left':
+    swim_wait = input('Stage 2\': You have come across a lake .Do you wanna "swim" , Do wanna go in "boat", "wait"? : \n').lower()
+
+
+    if swim_wait == 'swim':
+        print('Attacked by a crocodile hahahah .... Game over')
+    elif swim_wait == 'wait':
+        print("Hahaha attacked by lion!!Game over!")
+    elif swim_wait == 'boat':
+        door = input('Stage 3\': You have come across a house .Which door you want to go ? "red" ,"yellow","grey", "green", "blue"? : \n').lower()
+
+    
+        
+        if door == 'red':
+            print("Burned by fire hahahahaha.....Game over!!!")
+        elif door == 'blue':
+            print("EATEN BY A MAN-EATER ....HAHAHA GAME OVER!!!")
+        elif door == 'yellow':
+            print("GAME OVER !!!attacked by cats ")
+          
+        elif door == 'green':
+            print("Stoppped by boring cousins...Game over!!")
+        elif door == 'grey':
+            vehicle = input('Stage 4\': You have come across garage.Which vehicle you wanna choose? "bike","car"","scooty","truck" or you prefer "walk" ? \n ').lower()
+
+            if vehicle == 'walk':
+                print("TAKES MORE TIME !!Game Over")
+            elif vehicle == 'car':
+                print("tier is punchered!!GAME OVER")
+            elif vehicle == 'truck':
+                print("brakes are failed")
+            elif vehicle == 'scooty':
+                print("No accelerator!!Game over")
+                
+            elif vehicle == 'bike':
+                back_home = input('Stage 5\' : You are 1 step away to your home.What you will prefer? "steps","lift","climbing" or stay "down"? \n').lower()
+                if back_home == 'down':
+                    print("Sorry there's no place to stay!!GAME OVER")
+                elif back_home == 'lift':
+                    print("Electricity goneee..!!GAME OVER")
+                elif back_home == 'climbing':
+                    print("OOPS!!Its a flat building!!Even monkeys can't!!GAME OVER")
+                elif back_home == 'steps':
+
+
+                    final_stage = input('You\' reached home!!!Now what you will prefer!! "sleep","Netflix","Prime","TV","Food","Netflixfood","laptop" or Going out "again" ?\n').lower()
+                    if final_stage == 'sleep':
+                        print("If you will sleep How will you  get reward?GAME OVER")
+                    elif final_stage == 'Netflix':
+                        print("Hate wasting time !!GAME OVER")
+                    elif final_stage == 'Prime':
+                        print('Not that good shows!!GAME OVER')
+                    elif final_stage == 'TV':
+                        print("No electricity!!Game over")
+                    elif final_stage == 'Food':
+                        print("I love food!But mom is not at home😢😢")
+                    elif final_stage == 'laptop':
+                        print("need to charge!!But no electricity!!Game over")
+                    elif final_stage == 'Netflxfood':
+                        print("Hhahahahaha!!i got you !!we dont prefer to waste time!!GAME OVER")
+                    elif final_stage == "again":
+                        print("You did it meh boy!!!!Going out is the best option..Without electricity no fun at home!!Now enjoy the juice")
+                        print("You win!!!😉😉😎😁")
+
+
+
+                    
+
